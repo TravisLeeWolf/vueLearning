@@ -6,6 +6,12 @@
         <component :is="Component" />
       </Transition>
     </RouterView>
+    <div class="flex-grow">
+    </div>
+    <footer class="bg-weather-primary text-white text-center bottom-0">
+      <p class="text-lg -mb-4">Travis Naidoo - 2024</p>
+      <a class="text-[8px]" href="https://www.flaticon.com/free-icons/sunny" title="sunny icons">Sunny icons created by Nendra Wahyu  - Flaticon</a>
+    </footer>
   </div>
 </template>
 
